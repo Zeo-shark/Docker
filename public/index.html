@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Docker Node Webapp — Teaching Example</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Docker Node Webapp</h1>
+        <p class="lead">A minimal Node.js web app served with Express and packaged with Docker.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>What this demo shows</h2>
+        <ul>
+          <li>Serving static files with Express</li>
+          <li>Simple health API at <code>/api/health</code></li>
+          <li>How to build and run the app with Docker</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Try it</h2>
+        <ol>
+          <li>Build the image: <code>docker build -t docker-node-webapp .</code></li>
+          <li>Run it locally: <code>docker run -p 3000:3000 docker-node-webapp</code></li>
+          <li>Open <a href="http://localhost:3000">http://localhost:3000</a> in your browser</li>
+        </ol>
+      </section>
+
+      <section class="card footer-note">
+        <p>API check: <a href="/api/health">/api/health</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Created for teaching — simple, focused, and easy to extend.</div>
+    </footer>
+  </body>
+</html>

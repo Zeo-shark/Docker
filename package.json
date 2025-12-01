@@ -1,0 +1,15 @@
+{
+  "name": "docker-node-webapp",
+  "version": "1.0.0",
+  "description": "Simple Node.js web app packaged with Docker for teaching",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
