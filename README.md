@@ -40,3 +40,5 @@ Next steps / teaching ideas:
 - Add a CI workflow that builds and pushes the image
 
 Enjoy Learning Docker!
+
+Resources for you: [](https://www.scaler.com/topics/docker/)
