@@ -41,4 +41,5 @@ Next steps / teaching ideas:
 
 Enjoy Learning Docker!
 
-Resources for you: [](https://www.scaler.com/topics/docker/)
+Resources for you: https://www.scaler.com/topics/docker/
+Docker CLI cheatsheet: https://docs.docker.com/get-started/docker_cheatsheet.pdf
